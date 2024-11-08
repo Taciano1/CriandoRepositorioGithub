@@ -4,6 +4,10 @@ function setup() {
 }
 
 function draw() {
-  circle (200,200,20);
-  fill(100,250,000);
+  stroke("blue");
+  fill("red");
+  
+  if(mouseIsPressed){
+    rect(mouseX, mouseY, 20, 35)
+  }
 }
